@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newcar-api:war">
+    <output-path>$PROJECT_DIR$/newcar-api/target</output-path>
+    <root id="archive" name="newcar-api-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="newcar-api:war exploded" />
+    </root>
+  </artifact>
+</component>

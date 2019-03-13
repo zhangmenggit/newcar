@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/newcar-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-api" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-business" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-order" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-pay" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-product" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-redis" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-search" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-sms" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/newcar-user" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-common/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-search/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-api/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-user/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-product/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-order/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-business/pom.xml" />
+        <option value="$PROJECT_DIR$/newcar-sms/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
