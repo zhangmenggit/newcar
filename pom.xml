@@ -19,6 +19,7 @@
 
     <modules>
         <module>newcar-admin</module>
+        <module>newcar-common</module>
         <module>newcar-api</module>
         <module>newcar-business</module>
         <module>newcar-order</module>
