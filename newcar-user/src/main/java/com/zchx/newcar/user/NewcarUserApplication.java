@@ -10,7 +10,8 @@ import org.springframework.web.SpringServletContainerInitializer;
 
 @SpringBootApplication
 @EnableDubboConfiguration
-@MapperScan("com.zchx.newcar.user.dao")
+//mybatis-plue 默认扫描mapper
+@MapperScan("com.zchx.newcar.user.mapper")
 public class NewcarUserApplication extends SpringBootServletInitializer {
 
 	@Override
