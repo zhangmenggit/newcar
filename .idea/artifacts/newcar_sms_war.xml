@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="newcar-sms:war">
-    <output-path>$PROJECT_DIR$/newcar-sms/target</output-path>
-    <root id="archive" name="newcar-sms-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="newcar-sms:war exploded" />
-    </root>
-  </artifact>
-</component>

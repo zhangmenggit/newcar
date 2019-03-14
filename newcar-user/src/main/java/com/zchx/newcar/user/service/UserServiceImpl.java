@@ -1,22 +1,26 @@
 package com.zchx.newcar.user.service;
 
-import com.alibaba.dubbo.config.annotation.Service;
+import com.zchx.newcar.common.domain.user.UserEntity;
+import com.zchx.newcar.user.mapper.UserDao;
 import com.zchx.newcar.common.facade.user.UserService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
 
 /**
- * @Auther: 56986
- * @Date: 2019/3/13 10 54
- * @Description:
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author zzm
+ * @since 2019-03-14
  */
 @Service
-@org.springframework.stereotype.Service
-public class UserServiceImpl implements UserService {
+@com.alibaba.dubbo.config.annotation.Service
+public class UserServiceImpl extends ServiceImpl<UserDao, UserEntity> implements UserService {
 
     @Override
     public String sayHello(String name) {
 
-        System.out.println( name + " :  hello !!!!!!");
-
-        return name + " : hello !!!!!! ";
+        return name + ": hello !!!!!!!";
     }
 }
