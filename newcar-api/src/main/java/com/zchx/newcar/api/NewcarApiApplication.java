@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDubboConfiguration
-@RestController
 public class NewcarApiApplication extends SpringBootServletInitializer {
 
 	@Override
