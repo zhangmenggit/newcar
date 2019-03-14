@@ -2,12 +2,14 @@ package com.zchx.newcar.api.controller.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.zchx.newcar.common.facade.user.UserService;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Auther: 56986
  * @Date: 2019/3/13 11 02
  * @Description:
  */
+@RestController
 public class UserControllerImpl implements UserController {
 
     @Reference
